@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ajjaABwhEemrk7v8KLXFVg" name="MoT" URI="https://cristianowelter.visualstudio.com/ModelOfThings" metaclassReference="_rUSzUBwhEemrk7v8KLXFVg">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qn3XgBwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_i43NIDozEem7ZZeLLNtoTw" name="MoT" nsURI="https://cristianowelter.visualstudio.com/ModelOfThings" nsPrefix="MoT">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i43NRDozEem7ZZeLLNtoTw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i43NRTozEem7ZZeLLNtoTw" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i43NRjozEem7ZZeLLNtoTw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i43NRzozEem7ZZeLLNtoTw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i43NSDozEem7ZZeLLNtoTw" key="Date" value="2019-02-26"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i43NSTozEem7ZZeLLNtoTw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_i43NITozEem7ZZeLLNtoTw" name="SensorSubscribe">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i43NIjozEem7ZZeLLNtoTw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ugWfoBwhEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i43NIzozEem7ZZeLLNtoTw" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_i43NJTozEem7ZZeLLNtoTw" name="SensorPublish">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i43NJjozEem7ZZeLLNtoTw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6rGlQBwhEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i43NJzozEem7ZZeLLNtoTw" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_i43NKTozEem7ZZeLLNtoTw" name="SendEmail">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i43NKjozEem7ZZeLLNtoTw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_AQuJ8BwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i43NKzozEem7ZZeLLNtoTw" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_i43NLTozEem7ZZeLLNtoTw" name="SendSms">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i43NLjozEem7ZZeLLNtoTw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CKyC4BwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i43NLzozEem7ZZeLLNtoTw" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_i43NMTozEem7ZZeLLNtoTw" name="DashboardChart">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i43NMjozEem7ZZeLLNtoTw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Eah38BwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i43NMzozEem7ZZeLLNtoTw" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_i43NNTozEem7ZZeLLNtoTw" name="DashboardGauge">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i43NNjozEem7ZZeLLNtoTw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_F-XpQBwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i43NNzozEem7ZZeLLNtoTw" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_i43NOTozEem7ZZeLLNtoTw" name="DatabaseSave">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i43NOjozEem7ZZeLLNtoTw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_956L8DlfEem-dNGzL9zigg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i43NOzozEem7ZZeLLNtoTw" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_5t-n8DloEem-dNGzL9zigg" name="MoT" nsURI="https://cristianowelter.visualstudio.com/ModelOfThings" nsPrefix="MoT">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5uHx4TloEem-dNGzL9zigg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5uHx4jloEem-dNGzL9zigg" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5uHx4zloEem-dNGzL9zigg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5uHx5DloEem-dNGzL9zigg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5uHx5TloEem-dNGzL9zigg" key="Date" value="2019-02-25"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5uHx5jloEem-dNGzL9zigg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5t-n8TloEem-dNGzL9zigg" name="SensorSubscribe">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5t-n8jloEem-dNGzL9zigg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ugWfoBwhEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5t-n8zloEem-dNGzL9zigg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5t-n9TloEem-dNGzL9zigg" name="SensorPublish">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5t-n9jloEem-dNGzL9zigg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6rGlQBwhEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5t-n9zloEem-dNGzL9zigg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5t-n-TloEem-dNGzL9zigg" name="SendEmail">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5t-n-jloEem-dNGzL9zigg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_AQuJ8BwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5t-n-zloEem-dNGzL9zigg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5t-n_TloEem-dNGzL9zigg" name="SendSms">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5t-n_jloEem-dNGzL9zigg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CKyC4BwiEemrk7v8KLXFVg"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5t-n_zloEem-dNGzL9zigg" name="DashboardChart">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5t-oADloEem-dNGzL9zigg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Eah38BwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5t-oATloEem-dNGzL9zigg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5t-oAzloEem-dNGzL9zigg" name="DashboardGauge">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5t-oBDloEem-dNGzL9zigg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_F-XpQBwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5t-oBTloEem-dNGzL9zigg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5t-oBzloEem-dNGzL9zigg" name="Database">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5t-oCDloEem-dNGzL9zigg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_956L8DlfEem-dNGzL9zigg"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_u4wjIBwiEemrk7v8KLXFVg" name="MoT" nsURI="https://cristianowelter.visualstudio.com/ModelOfThings" nsPrefix="MoT">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u4y_YxwiEemrk7v8KLXFVg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4y_ZBwiEemrk7v8KLXFVg" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4y_ZRwiEemrk7v8KLXFVg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4y_ZhwiEemrk7v8KLXFVg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4y_ZxwiEemrk7v8KLXFVg" key="Date" value="2019-01-19"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4y_aBwiEemrk7v8KLXFVg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_u4wjIRwiEemrk7v8KLXFVg" name="SensorSubscribe">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u4wjIhwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ugWfoBwhEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_u4wjIxwiEemrk7v8KLXFVg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_u4wjJRwiEemrk7v8KLXFVg" name="SensorPublish">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u4wjJhwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6rGlQBwhEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_u4wjJxwiEemrk7v8KLXFVg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_u4wjKRwiEemrk7v8KLXFVg" name="SendEmail">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u4wjKhwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_AQuJ8BwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_u4wjKxwiEemrk7v8KLXFVg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_u4wjLRwiEemrk7v8KLXFVg" name="SendSms">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u4wjLhwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CKyC4BwiEemrk7v8KLXFVg"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_u4wjLxwiEemrk7v8KLXFVg" name="DashboardChart">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u4wjMBwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Eah38BwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_u4wjMRwiEemrk7v8KLXFVg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_u4wjMxwiEemrk7v8KLXFVg" name="DashboardGauge">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u4wjNBwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_F-XpQBwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_u4wjNRwiEemrk7v8KLXFVg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Qn3-kBwiEemrk7v8KLXFVg" name="MoT" nsURI="http:///schemas/MoT/_Qn0UMBwiEemrk7v8KLXFVg/0" nsPrefix="MoT">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qn-FMBwiEemrk7v8KLXFVg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qn-FMRwiEemrk7v8KLXFVg" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qn-FMhwiEemrk7v8KLXFVg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qn-FMxwiEemrk7v8KLXFVg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qn-FNBwiEemrk7v8KLXFVg" key="Date" value="2019-01-19"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qn-FNRwiEemrk7v8KLXFVg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Qn3-kRwiEemrk7v8KLXFVg" name="SensorSubscribe">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qn3-khwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ugWfoBwhEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Qn3-kxwiEemrk7v8KLXFVg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Qn3-lRwiEemrk7v8KLXFVg" name="SensorPublish">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qn3-lhwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6rGlQBwhEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Qn3-lxwiEemrk7v8KLXFVg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Qn4loRwiEemrk7v8KLXFVg" name="SendEmail">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qn4lohwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_AQuJ8BwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Qn4loxwiEemrk7v8KLXFVg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Qn4lpRwiEemrk7v8KLXFVg" name="SendSms">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qn4lphwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CKyC4BwiEemrk7v8KLXFVg"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Qn4lpxwiEemrk7v8KLXFVg" name="DashboardChart">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qn4lqBwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Eah38BwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Qn4lqRwiEemrk7v8KLXFVg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Qn4lqxwiEemrk7v8KLXFVg" name="DashboardGauge">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qn4lrBwiEemrk7v8KLXFVg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_F-XpQBwiEemrk7v8KLXFVg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Qn4lrRwiEemrk7v8KLXFVg" name="base_UseCase" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_rUSzUBwhEemrk7v8KLXFVg" alias="UseCase">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#UseCase"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_bVud0BwhEemrk7v8KLXFVg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_bV2ZoBwhEemrk7v8KLXFVg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_ugWfoBwhEemrk7v8KLXFVg" name="SensorSubscribe">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KyopgBwiEemrk7v8KLXFVg" name="base_UseCase" association="_Kyh70BwiEemrk7v8KLXFVg">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#UseCase"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_6rGlQBwhEemrk7v8KLXFVg" name="SensorPublish">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LlC94BwiEemrk7v8KLXFVg" name="base_UseCase" association="_LlBvwBwiEemrk7v8KLXFVg">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#UseCase"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_AQuJ8BwiEemrk7v8KLXFVg" name="SendEmail">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_M5nkIBwiEemrk7v8KLXFVg" name="base_UseCase" association="_M5mWABwiEemrk7v8KLXFVg">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#UseCase"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_CKyC4BwiEemrk7v8KLXFVg" name="SendSms">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iO6RMjozEem7ZZeLLNtoTw" name="base_UseCase" association="_iO6RMDozEem7ZZeLLNtoTw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#UseCase"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_Eah38BwiEemrk7v8KLXFVg" name="DashboardChart">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NmFBgBwiEemrk7v8KLXFVg" name="base_UseCase" association="_NmEacBwiEemrk7v8KLXFVg">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#UseCase"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_F-XpQBwiEemrk7v8KLXFVg" name="DashboardGauge">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OmTIYBwiEemrk7v8KLXFVg" name="base_UseCase" association="_OmR6QBwiEemrk7v8KLXFVg">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#UseCase"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_Kyh70BwiEemrk7v8KLXFVg" name="E_SensorSubscribe_UseCase10" memberEnd="_KyoCcBwiEemrk7v8KLXFVg _KyopgBwiEemrk7v8KLXFVg">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_KyoCcBwiEemrk7v8KLXFVg" name="extension_SensorSubscribe" type="_ugWfoBwhEemrk7v8KLXFVg" aggregation="composite" association="_Kyh70BwiEemrk7v8KLXFVg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_LlBvwBwiEemrk7v8KLXFVg" name="E_SensorPublish_UseCase11" memberEnd="_LlCW0BwiEemrk7v8KLXFVg _LlC94BwiEemrk7v8KLXFVg">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_LlCW0BwiEemrk7v8KLXFVg" name="extension_SensorPublish" type="_6rGlQBwhEemrk7v8KLXFVg" aggregation="composite" association="_LlBvwBwiEemrk7v8KLXFVg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_M5mWABwiEemrk7v8KLXFVg" name="E_SendEmail_UseCase12" memberEnd="_M5m9EBwiEemrk7v8KLXFVg _M5nkIBwiEemrk7v8KLXFVg">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_M5m9EBwiEemrk7v8KLXFVg" name="extension_SendEmail" type="_AQuJ8BwiEemrk7v8KLXFVg" aggregation="composite" association="_M5mWABwiEemrk7v8KLXFVg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_NmEacBwiEemrk7v8KLXFVg" name="E_DashboardChart_UseCase13" memberEnd="_NmEacRwiEemrk7v8KLXFVg _NmFBgBwiEemrk7v8KLXFVg">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_NmEacRwiEemrk7v8KLXFVg" name="extension_DashboardChart" type="_Eah38BwiEemrk7v8KLXFVg" aggregation="composite" association="_NmEacBwiEemrk7v8KLXFVg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_OmR6QBwiEemrk7v8KLXFVg" name="E_DashboardGauge_UseCase14" memberEnd="_OmShUBwiEemrk7v8KLXFVg _OmTIYBwiEemrk7v8KLXFVg">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_OmShUBwiEemrk7v8KLXFVg" name="extension_DashboardGauge" type="_F-XpQBwiEemrk7v8KLXFVg" aggregation="composite" association="_OmR6QBwiEemrk7v8KLXFVg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_956L8DlfEem-dNGzL9zigg" name="DatabaseSave">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hySmoTozEem7ZZeLLNtoTw" name="base_UseCase" association="_hyJcsDozEem7ZZeLLNtoTw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#UseCase"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_hyJcsDozEem7ZZeLLNtoTw" name="E_DatabaseSave_UseCase17" memberEnd="_hySmoDozEem7ZZeLLNtoTw _hySmoTozEem7ZZeLLNtoTw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_hySmoDozEem7ZZeLLNtoTw" name="extension_DatabaseSave" type="_956L8DlfEem-dNGzL9zigg" aggregation="composite" association="_hyJcsDozEem7ZZeLLNtoTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_iO6RMDozEem7ZZeLLNtoTw" name="E_SendSms_UseCase18" memberEnd="_iO6RMTozEem7ZZeLLNtoTw _iO6RMjozEem7ZZeLLNtoTw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_iO6RMTozEem7ZZeLLNtoTw" name="extension_SendSms" type="_CKyC4BwiEemrk7v8KLXFVg" aggregation="composite" association="_iO6RMDozEem7ZZeLLNtoTw"/>
+  </packagedElement>
+</uml:Profile>
