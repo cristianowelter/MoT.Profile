@@ -4,6 +4,7 @@ The **Model of Things (MoT) UML Profile** extends traditional UML to support the
 This profile introduces domain-specific **stereotypes** that encapsulate IoT communication, data storage, dashboard visualization, brain–computer interaction, and social/media integration.  
 By applying these stereotypes directly in UML diagrams, developers can **design at a higher level of abstraction** while enabling **automated, low-code generation** of executable artifacts.
 
+
 The profile is organized into thematic categories to make modeling intuitive, consistent, and practical.
 
 ---
