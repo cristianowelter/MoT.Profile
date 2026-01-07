@@ -57,7 +57,7 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5uHx4jloEem-dNGzL9zigg" key="Version" value="0.0.3"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5uHx4zloEem-dNGzL9zigg" key="Comment" value=""/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5uHx5DloEem-dNGzL9zigg" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5uHx5TloEem-dNGzL9zigg" key="Date" value="2019-02-25"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5uHx5TloEem-dNGzL9zigg" key="Date" value="2026-01-01"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5uHx5jloEem-dNGzL9zigg" key="Author" value=""/>
       </eAnnotations>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_5t-n8TloEem-dNGzL9zigg" name="SensorSubscribe">
@@ -102,7 +102,7 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4y_ZBwiEemrk7v8KLXFVg" key="Version" value="0.0.2"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4y_ZRwiEemrk7v8KLXFVg" key="Comment" value=""/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4y_ZhwiEemrk7v8KLXFVg" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4y_ZxwiEemrk7v8KLXFVg" key="Date" value="2019-01-19"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4y_ZxwiEemrk7v8KLXFVg" key="Date" value="2026-01-01"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4y_aBwiEemrk7v8KLXFVg" key="Author" value=""/>
       </eAnnotations>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_u4wjIRwiEemrk7v8KLXFVg" name="SensorSubscribe">
@@ -144,7 +144,7 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qn-FMRwiEemrk7v8KLXFVg" key="Version" value="0.0.1"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qn-FMhwiEemrk7v8KLXFVg" key="Comment" value=""/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qn-FMxwiEemrk7v8KLXFVg" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qn-FNBwiEemrk7v8KLXFVg" key="Date" value="2019-01-19"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qn-FNBwiEemrk7v8KLXFVg" key="Date" value="2026-01-01"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qn-FNRwiEemrk7v8KLXFVg" key="Author" value=""/>
       </eAnnotations>
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_Qn3-kRwiEemrk7v8KLXFVg" name="SensorSubscribe">
@@ -248,3 +248,4 @@
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_iO6RMTozEem7ZZeLLNtoTw" name="extension_SendSms" type="_CKyC4BwiEemrk7v8KLXFVg" aggregation="composite" association="_iO6RMDozEem7ZZeLLNtoTw"/>
   </packagedElement>
 </uml:Profile>
+
